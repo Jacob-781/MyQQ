@@ -1,0 +1,11 @@
+# 可执行程序
+*.exe
+# 编译中间目标文件
+*.o
+*.obj
+# SQLite数据库文件
+*.db
+*.db-journal
+
+# VSCode临时文件
+.vscode/.DS_Store
