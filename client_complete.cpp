@@ -7,7 +7,7 @@
 #pragma comment(lib, "ws2_32.lib")
 
 #define BUF_SIZE 1024
-const std::string SERVER_IP = "127.0.0.1"; // 局域网联调时改成服务端的实际内网 IP
+const std::string SERVER_IP = "192.168.43.73"; // 局域网联调时改成服务端的实际内网 IP
 const int SERVER_PORT = 8888;
 
 bool is_online = false;
